@@ -20,7 +20,7 @@ MYAPP.show = (function() {
 (function() {
     if (navigator.userAgent.indexOf('Browzr') > -1) {
         // blackberry
-        setTimeout(MYAPP.run, 250)    
+        setTimeout(MYAPP.run, 2500)    
     } else {
         // attach to deviceready event, which is fired when phonegap is all good to go.
         document.addEventListener('deviceready', MYAPP.run, false);
